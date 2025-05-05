@@ -2,9 +2,6 @@
 PUtilties is a Utilities Workspace designed to make schoolwork and calculations as efficient as possible.
 Created using Python and tkinter. PUtilities is designed not to use any external packages not native to a 
 default python installation.
-
-Contributors include:
->> Lincoln Reilly
 """
 
 import os, datetime

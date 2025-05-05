@@ -6,6 +6,10 @@ import tkinter as tk
 from tkinter import ttk, filedialog, messagebox
 import typing, os, sys, math, time, random, datetime, pathlib, json, pickle, configparser, abc
 
+LOWERCASE = list("abcdefghijklmnopqrstuvwxyz")
+UPPERCASE = list("ABCDEFGHIJKLMNOPQRSTUVWXYZ")
+DIGITS = list("0123456789")
+
 class TabFrame(ttk.Frame, abc.ABC):
     """
     Frame able to be added as a tab to the PUtilties Window. ALL UTILITIES SHOULD INHERIT FROM THIS CLASS.

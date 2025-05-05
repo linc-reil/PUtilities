@@ -298,6 +298,71 @@ class funcs:
     def potential(mass: float, height: float, **kwargs) -> float:
         """Get the potential energy of an object under earth's gravity. Uses Ep = mgh."""
         return mass * height * 9.81
+    
+    def lachem(equation: str, **kwargs) -> str:
+        """Write chemical equation quickly to convert into the LaTeX format."""
+        class Tokenizer:
+            plus = "+"
+            arrow = ">"
+
+            def __init__(self, string: str) -> None:
+                self.tokenize(string)
+
+            def cleanup_string(self, string: str) -> None:
+                result = ""
+                for i in string:
+                    if i in LOWERCASE + UPPERCASE + DIGITS + ["+", ">"]:
+                        result += i
+                return result
+
+            def tokenize(self, string: str) -> None:
+                string = self.cleanup_string(string)
+                split = string.split(self.plus)
+                temp, i = [], 0
+                while i < len(split):
+                    if i > 0: temp.append(self.plus)
+                    temp.append(split[i])
+                    i += 1
+                self.tokens = []
+                for i in temp:
+                    if self.arrow in i:
+                        split = i.split(self.arrow)
+                        self.tokens.append(split[0])
+                        self.tokens.append(self.arrow)
+                        self.tokens.append(split[1])
+                    else:
+                        self.tokens.append(i)
+
+            def latexify(self) -> None:
+                result = ""
+                for token in self.tokens:
+                    if token == self.plus:
+                        result += " + "
+                    elif token == self.arrow:
+                        result += " \\longrightarrow "
+                    else:
+                        t, i = list(token), 0
+                        coefficient = ""
+                        while t[0] in DIGITS:
+                            coefficient += t[0]
+                            t.pop(0)
+                        result += coefficient
+                        i = 0
+                        while i < len(t):
+                            if t[i] in UPPERCASE + LOWERCASE:
+                                element = ""
+                                while i < len(t) and t[i] in UPPERCASE + LOWERCASE:
+                                    element += t[i]
+                                    i += 1
+                                result += "\\mathrm{" + element + "}"
+                            else:
+                                sub = ""
+                                while i < len(t) and t[i] not in UPPERCASE + LOWERCASE:
+                                    sub += t[i]
+                                    i += 1
+                                result += "_{" + sub + "}"
+                return result
+        return Tokenizer(equation).latexify()
 
 class CommandLine(TabFrame):
     _name = "Command Line"
