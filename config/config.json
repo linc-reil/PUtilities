@@ -1,0 +1,65 @@
+{
+    "username": "Lincoln Reilly",
+    "rounding": 3,
+    "angle_unit": "Degrees",
+    "show_error_windows": true,
+    "default_tab": "Home Tab",
+    "terminalprompt": "PUtilities $",
+    "subjects": [
+        "Mathematics Methods",
+        "Physics and Chemistry",
+        "Science",
+        "Woodwork",
+        "Graphics",
+        "English",
+        "Workplace Skills"
+    ],
+    "timetable": {
+        "Monday": [
+            "Science",
+            "Mathematics Methods",
+            "English",
+            "Physics and Chemistry"
+        ],
+        "Tuesday": [
+            "English",
+            "Mathematics Methods",
+            "Graphics",
+            "Science"
+        ],
+        "Wednesday": [
+            "Woodwork",
+            "Graphics",
+            "Physics and Chemistry",
+            "Mathematics Methods"
+        ],
+        "Thursday": [
+            "Workplace Skills",
+            "Woodwork",
+            "English",
+            "Physics and Chemistry"
+        ],
+        "Friday": [
+            "Graphics",
+            "Workplace Skills",
+            "Science",
+            "Woodwork"
+        ],
+        "Saturday": [
+            "No Subject",
+            "No Subject",
+            "No Subject",
+            "No Subject",
+            "No Subject"
+        ],
+        "Sunday": [
+            "No Subject",
+            "No Subject",
+            "No Subject",
+            "No Subject",
+            "No Subject"
+        ]
+    },
+    "recent_files": [],
+    "cps_highscore": 69
+}

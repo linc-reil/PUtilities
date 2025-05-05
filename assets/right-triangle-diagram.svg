@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="384"
+   height="192"
+   viewBox="0 0 101.59999 50.799999"
+   version="1.1"
+   id="svg1"
+   inkscape:version="1.4 (86a8ad7, 2024-10-11)"
+   sodipodi:docname="right-triangle-diagram.svg"
+   inkscape:export-filename="right-triangle-diagram-bordered.png"
+   inkscape:export-xdpi="96"
+   inkscape:export-ydpi="96"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview1"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:document-units="mm"
+     inkscape:zoom="0.69670055"
+     inkscape:cx="31.577412"
+     inkscape:cy="223.19489"
+     inkscape:window-width="1366"
+     inkscape:window-height="705"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer1"
+     inkscape:export-bgcolor="#ffffffff" />
+  <defs
+     id="defs1" />
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <path
+       id="path5"
+       style="opacity:1;fill:none;stroke:#000000;stroke-width:0.828898;stroke-linecap:round"
+       d="M 12.63269,3.5614563 99.074056,39.526108 H 12.63269 Z"
+       sodipodi:nodetypes="cccc" />
+    <text
+       xml:space="preserve"
+       style="font-size:6.63118px;font-family:Consolas;-inkscape-font-specification:Consolas;text-align:start;writing-mode:lr-tb;direction:ltr;text-anchor:start;opacity:1;fill:none;stroke:#000000;stroke-width:0.828898;stroke-linecap:round;stroke-dasharray:none;stroke-opacity:1"
+       x="52.43935"
+       y="15.630381"
+       id="text1"><tspan
+         sodipodi:role="line"
+         id="tspan1"
+         style="font-size:6.63118px;fill:#000000;stroke:none;stroke-width:0.828898"
+         x="52.43935"
+         y="15.630381">Hypotenuse</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:6.63118px;font-family:Consolas;-inkscape-font-specification:Consolas;text-align:start;writing-mode:lr-tb;direction:ltr;text-anchor:start;opacity:1;fill:#000000;stroke:none;stroke-width:0.828898;stroke-linecap:round;stroke-dasharray:none;stroke-opacity:1"
+       x="38.453331"
+       y="47.574196"
+       id="text2"><tspan
+         sodipodi:role="line"
+         id="tspan2"
+         style="stroke-width:0.828898"
+         x="38.453331"
+         y="47.574196">Adjacent</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:6.63118px;font-family:Consolas;-inkscape-font-specification:Consolas;text-align:start;writing-mode:lr-tb;direction:ltr;text-anchor:start;opacity:1;fill:#000000;stroke:none;stroke-width:0.828898;stroke-linecap:round;stroke-dasharray:none;stroke-opacity:1"
+       x="-34.908264"
+       y="6.9807186"
+       id="text3"
+       transform="rotate(-90)"><tspan
+         sodipodi:role="line"
+         id="tspan3"
+         style="stroke-width:0.828898"
+         x="-34.908264"
+         y="6.9807186">Opposite</tspan></text>
+    <rect
+       style="opacity:1;fill:none;stroke:#000000;stroke-width:0.828898;stroke-linecap:round;stroke-dasharray:none;stroke-opacity:1"
+       id="rect3"
+       width="6.7302275"
+       height="6.7302275"
+       x="12.632689"
+       y="32.766518" />
+    <path
+       id="path8"
+       style="opacity:1;fill:none;stroke:#000000;stroke-width:0.828898;stroke-linecap:round"
+       d="M 22.615648,7.7154336 A 11.490317,11.218631 0 0 1 12.634053,14.151413" />
+    <path
+       id="path7"
+       style="opacity:1;fill:none;stroke:#000000;stroke-width:0.828898;stroke-linecap:round"
+       d="m 80.909792,39.524693 a 11.490317,11.218631 0 0 1 2.464957,-6.537038" />
+    <text
+       xml:space="preserve"
+       style="font-size:6.63118px;font-family:Consolas;-inkscape-font-specification:Consolas;text-align:start;writing-mode:lr-tb;direction:ltr;text-anchor:start;opacity:1;fill:#000000;stroke:none;stroke-width:0.828898;stroke-linecap:round;stroke-dasharray:none;stroke-opacity:1"
+       x="60.455761"
+       y="36.197891"
+       id="text8"><tspan
+         sodipodi:role="line"
+         id="tspan8"
+         style="fill:#000000;stroke:none;stroke-width:0.828898"
+         x="60.455761"
+         y="36.197891">Theta</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:6.63118px;font-family:Consolas;-inkscape-font-specification:Consolas;text-align:start;writing-mode:lr-tb;direction:ltr;text-anchor:start;opacity:1;fill:#000000;stroke:none;stroke-width:0.828898;stroke-linecap:round;stroke-dasharray:none;stroke-opacity:1"
+       x="19.282639"
+       y="19.464029"
+       id="text9"><tspan
+         sodipodi:role="line"
+         id="tspan9"
+         style="stroke-width:0.828898"
+         x="19.282639"
+         y="19.464029">Phi</tspan></text>
+    <rect
+       style="opacity:1;fill:none;stroke:#000000;stroke-width:0.517423;stroke-linecap:round"
+       id="rect1"
+       width="101.08258"
+       height="50.282578"
+       x="0.25871128"
+       y="0.25871128" />
+  </g>
+</svg>
